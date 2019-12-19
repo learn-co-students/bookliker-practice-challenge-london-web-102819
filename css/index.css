@@ -2,3 +2,28 @@ body {
 	display: grid;
 	grid-template-columns: 2fr 8fr
 }
+
+li.book {
+	display: inline-block;
+}
+
+li.book p {
+	font-family: 'Times New Roman', Times, serif;
+}
+
+li.book h2 {
+	float: left;
+	color: blue;
+	cursor: pointer;
+	padding: 0.1cm;
+}
+
+img {
+	padding: 5px; /* Some padding */
+	width: 80px; /* Set a small width */
+	float: right;
+  }
+
+.hidden {
+	display: none;
+}
